@@ -5,5 +5,6 @@ Relative Layout adalah jenis layout yang memiliki karakteristik dalam menempatka
 
 Contoh hasil Relative Layout :
 
-![alt text](Hasil/Relative.jpg)
+![alt text](Relative.jpg)
 
+ Lebih lengkapnya bisa dilihat [disini](https://developer.android.com/guide/topics/ui/layout/relative?hl=id)
