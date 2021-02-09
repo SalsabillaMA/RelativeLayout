@@ -3,24 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EEDADF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
@@ -44,54 +45,54 @@
         android:id="@+id/img_center"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_above="@id/img_center"
         android:layout_toStartOf="@id/img_center"
-        android:layout_toLeftOf="@id/img_center" />
+        android:layout_toLeftOf="@id/img_center"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_above="@id/img_center"
         android:layout_toEndOf="@id/img_center"
-        android:layout_toRightOf="@id/img_center" />
+        android:layout_toRightOf="@id/img_center"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_below="@id/img_center"
         android:layout_toStartOf="@id/img_center"
-        android:layout_toLeftOf="@id/img_center" />
+        android:layout_toLeftOf="@id/img_center"
+        android:src="@drawable/flower" />
 
     <ImageView
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:src="@drawable/flower"
         android:layout_below="@id/img_center"
         android:layout_toEndOf="@id/img_center"
-        android:layout_toRightOf="@id/img_center" />
+        android:layout_toRightOf="@id/img_center"
+        android:src="@drawable/flower" />
 </RelativeLayout>
